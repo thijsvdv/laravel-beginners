@@ -16,4 +16,8 @@ class WelcomeController extends Controller
             'name' => 'Thijs'
         ]);   
     }
+
+    public function test() {
+        return view('pages.test');   
+    }
 }

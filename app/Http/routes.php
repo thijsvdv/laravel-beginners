@@ -26,3 +26,7 @@ Route::get('/about', ['as' => 'about', function () {
         ]
     ]);
 }]);
+
+// Without this route, the action-url to WelcomeController@test in app.blade.php would not work!
+// Laravel would not know where to go...
+Route::get('/test', ['uses' => 'WelcomeController@test']);
