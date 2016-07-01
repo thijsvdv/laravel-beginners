@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', ['as' => 'home', function () {
     return view('pages.welcome', [
         'name' => 'Thijs'
     ]);
-});
+}]);
     
-Route::get('/about', function () {
+Route::get('/about', ['as' => 'about', function () {
     return view('pages.about', [
         'team' => [
             'Mike',
@@ -29,4 +29,4 @@ Route::get('/about', function () {
             'Kurt'
         ]
     ]);
-});
+}]);

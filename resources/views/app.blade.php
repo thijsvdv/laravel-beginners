@@ -38,6 +38,10 @@
     <body>
         <div class="container">
             <div class="content">
+                <div class="navbar">
+                  <a href="{!! route('home') !!}">Home</a> |
+                  <a href="{!! route('about') !!}">About</a>
+                </div>
                 @yield('content')
             </div>
         </div>
