@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', ['as' => 'home', function () {
-    return view('pages.welcome', [
-        'name' => 'Thijs'
-    ]);
-}]);
+Route::get('/', ['as' => 'home', 'uses' => 'WelcomeController@home']);
     
 Route::get('/about', ['as' => 'about', function () {
     return view('pages.about', [
