@@ -12,9 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
+    return view('pages.welcome', [
+        'name' => 'Thijs'
+    ]);
 });
     
 Route::get('/about', function () {
-    return view('pages.about');
+    return view('pages.about', [
+        'team' => [
+            'Mike',
+            'Mathieu',
+            'Wouter',
+            'Christoffel',
+            'Koen',
+            'Thijs',
+            'Kurt'
+        ]
+    ]);
 });
