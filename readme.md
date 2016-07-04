@@ -1,13 +1,14 @@
 # Laravel for beginners
 
 0. Setup  
-  0.1. [Tools](docs/Tools.md)  
-  0.2. [Install Laravel](docs/Install.md)  
-1. [Route and page](docs/Route and page.md)
-2. [Master template](docs/Master template.md)
-3. [Passing variables to templates](docs/Passing variables to templates.md)
-4. [Named routes and route helper to create links](docs/Named routes.md)
-5. [Controllers](docs/Controllers.md)
+  0.1. [Tools](docs/0.1. Tools.md)  
+  0.2. [Install Laravel](docs/0.2. Install.md)  
+1. [Route and page](docs/1. Route and page.md)
+2. [Master template](docs/2. Master template.md)
+3. [Passing variables to templates](docs/3. Passing variables to templates.md)
+4. [Named routes and route helper to create links](docs/4. Named routes.md)
+5. [Controllers](docs/5. Controllers.md)
+6. [Models](docs/6. Models.md)
 
 # Laravel PHP Framework
 
